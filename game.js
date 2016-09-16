@@ -9,9 +9,9 @@ cxt.stroke();
 
 document.body.onkeyup = function(e){
     if(e.keyCode == 32){
-    	x+=100;
-        y-=100;
+    	x += 100;
+        y -= 100;
         cxt.rect(x,y,50,50);
 		cxt.stroke();
-    }
+    } 
 } 
